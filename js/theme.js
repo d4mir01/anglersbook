@@ -4,8 +4,8 @@ const themeIcon = document.getElementById('theme-icon');
 const heroImg = document.getElementById("hero-img");
 
 
-let rootPath = location.pathname.includes("/pages/") ? "../" : "";
-
+/*let rootPath = location.pathname.includes("/pages/") ? "../" : "";*/
+const rootPath = location.pathname.includes("/pages/") ? "../" : "./";
 
 function updateHeroImage() {
   if (!heroImg) return;
