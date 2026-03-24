@@ -188,6 +188,28 @@ background-color: #000;
   transform: rotate(20deg) scale(1.1);
 }
 
+.theme-toggle {
+  flex-shrink: 0;
+}
+
+.theme-toggle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.theme-toggle {
+  padding: 0 !important;
+}
+
+@media (max-width: 900px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
 
 /* ===== КНОПКА НАВЕРХ ===== */
 
