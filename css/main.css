@@ -199,21 +199,10 @@ background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 70%;
+    width: 30px;
+    height: 28px;
 }
 
-@media (max-width: 900px) {
-    .theme-toggle a {
-        width: 40px;
-        height: 40px;
-    }
-
-    #theme-icon {
-        width: 75%;
-        height: 75%;
-    }
-}
 /* ===== КНОПКА НАВЕРХ ===== */
 
 .scroll-top {
