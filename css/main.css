@@ -189,19 +189,7 @@ background-color: #000;
   transform: rotate(20deg) scale(1.1);
 }
 
-.theme-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.theme-toggle a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 45px;
-}
 
 /* ===== КНОПКА НАВЕРХ ===== */
 
