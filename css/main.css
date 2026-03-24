@@ -178,8 +178,8 @@ background-color: #000;
 }
 
 .theme-toggle img {
-  width: 26px;
-  height: 26px;
+  width: 75%;
+  height: 75%;
   cursor: pointer;
   transition: transform 0.3s ease;
   max-width: 100%;
@@ -187,20 +187,6 @@ background-color: #000;
 
 .theme-toggle img:hover {
   transform: rotate(20deg) scale(1.1);
-}
-
-.theme-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.theme-toggle a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 28px;
 }
 
 /* ===== КНОПКА НАВЕРХ ===== */
