@@ -202,6 +202,17 @@ background-color: #000;
     height: 45px;
 }
 
+@media (max-width: 900px) {
+    .theme-toggle a {
+        width: 40px;
+        height: 40px;
+    }
+
+    #theme-icon {
+        width: 75%;
+        height: 75%;
+    }
+}
 /* ===== КНОПКА НАВЕРХ ===== */
 
 .scroll-top {
